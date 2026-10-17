@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClauseClear | Understand Before You Agree</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header class="navbar">
+    <a href="/" class="logo">Clause<span>Clear</span></a>
+    <span class="tagline">Understand before you agree.</span>
+</header>
+
+<main class="container">
+    <section class="hero">
+        <div class="eyebrow">YOUR PERSONAL POLICY EXPLAINER</div>
+        <h1>Legal documents,<br><span>made understandable.</span></h1>
+        <p>
+            Stop guessing what the fine print means.
+            Paste your Terms & Conditions or Privacy Policy
+            and let AI explain the important details in simple English.
+        </p>
+    </section>
+
+    <section class="workspace">
+        <div class="section-heading">
+            <div>
+                <h2>Analyze a document</h2>
+                <p>Paste the text you want ClauseClear to explain.</p>
+            </div>
+            <span class="step-label">STEP 01</span>
+        </div>
+
+        <label for="documentText">Document text</label>
+        <textarea
+            id="documentText"
+            placeholder="Paste your Terms & Conditions or Privacy Policy here..."
+            maxlength="50000"
+        ></textarea>
+
+        <div class="input-footer">
+            <span id="charCount">0 characters</span>
+            <span>Don't include passwords or sensitive personal information.</span>
+        </div>
+
+        <button id="analyzeButton" type="button">
+            <span id="buttonText">Analyze Document</span>
+            <span aria-hidden="true"> →</span>
+        </button>
+
+        <p id="statusMessage" class="status" role="status" aria-live="polite"></p>
+    </section>
+
+    <section id="resultSection" class="result-section" hidden>
+        <div class="result-heading">
+            <div>
+                <span class="step-label">STEP 02</span>
+                <h2>Your explanation</h2>
+                <p>Review the summary, conditions, and potential risks below.</p>
+            </div>
+            <button id="copyButton" class="secondary-button" type="button">
+                Copy Result
+            </button>
+        </div>
+
+        <pre id="resultText" class="result-text"></pre>
+        <p class="disclaimer">
+            ClauseClear provides AI-generated information for educational
+            purposes, not legal advice. Verify important terms against
+            the original document.
+        </p>
+    </section>
+
+    <footer>
+        <p>ClauseClear · Understand the fine print.</p>
+    </footer>
+</main>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+POST http://localhost:8080/analyze
+Content-Type: text/plain
+
+We collect your full name, email address, phone number, IP address, and device information when you use our services. We use this information to personalize your experience and improve our services.
+
+We may share your personal information with third-party advertisers and analytics providers. These partners may use your information for targeted advertising.
+
+Your subscription automatically renews every month at ₹499 unless you cancel at least 48 hours before the renewal date. Payments are non-refundable once a billing cycle begins.
+
+We may suspend or terminate your account at any time without prior notice. We reserve the right to modify these terms at any time.
+
+We retain your personal information for as long as necessary to provide our services. We may continue to retain certain information after account deletion to comply with legal obligations.
